@@ -10,7 +10,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<LoginHeader />} />
       <Route path="/header" element={<Header />} />
-      <Route path="//qrreder" element={<QRReader />} />
+      <Route path="/qrreder" element={<QRReader />} />
       <Route path="/about" element={<About />} />
     </Routes>
   );
